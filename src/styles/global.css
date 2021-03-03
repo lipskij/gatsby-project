@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(27, 20, 68);
+}
+html,
+body {
+  min-height: 100%;
+}
+body {
+  /* background-image: url("/anime-stripes.png") ; */
+  background-repeat: no-repeat;
+  background-size: 100% 200%;
+  background-attachment: fixed;
+}
+p {
+  margin: 16px auto;
+  line-height: 1.5rem;
+}
+
+/* layout & nav */
+.layout {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 40px auto;
+}
+nav .links {
+  display: inline-block;
+  text-align: right;
+}
+nav a {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 400;
+  padding-bottom: 8px;
+  border-bottom: 3px solid transparent;
+}
+nav a:hover {
+  border-color: white;
+}
+footer p {
+  text-align: center;
+  color: #bbb;
+  margin: 40px auto;
+}
