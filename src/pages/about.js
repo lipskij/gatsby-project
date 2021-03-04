@@ -1,22 +1,39 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import Layout from "../components/Layout"
-import {about} from '../styles/about.module.css'
+// import Rick from "../components/Rick"
+import { about, grid } from "../styles/about.module.css"
 
 export default function About() {
+  const [data, setData] = useState()
+  useEffect(() => {
+    fetch("https://rickandmortyapi.com/api/character/")
+      .then(x => x.json())
+      .then(x => setData(x))
+  }, [])
+
+  console.log(data?.results)
   return (
     <Layout>
       <section className={about}>
         <div>
           <h1>About page</h1>
-          <p>I hate lorem ipsum so i'm not going to use it this time.</p>
-          <p>I hate lorem ipsum so i'm not going to use it this time.</p>
-          <p>I hate lorem ipsum so i'm not going to use it this time.</p>
+          <p>Little website about Rick & Morty</p>
+          <p>Only for learning purpose</p>
         </div>
-        <img
-          src="/opmabout.png"
-          alt="opm and genos"
-          style={{ maxWidth: "100%" }}
-        />
+        <div >
+          <ul className={grid}>
+            {data?.results.map(i => {
+              const { id, image, name } = i
+
+              return (
+                <li key={id}>
+                  <img src={image} alt={name} />
+                  <h3>{name}</h3>
+                </li>
+              )
+            })}
+          </ul>
+        </div >
       </section>
     </Layout>
   )

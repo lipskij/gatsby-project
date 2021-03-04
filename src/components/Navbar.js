@@ -4,7 +4,7 @@ import React from "react"
 export default function Navbar() {
   return (
     <nav>
-      <h1>One Punch Man!</h1>
+      <h1>...To Live Is To Risk It All...</h1>
       <div className="links">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>

@@ -6,7 +6,13 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-create-client-paths`,
+      options: { prefixes: [`/about/*`] },
+    },
+  ],
+
   siteMetadata: {
     title: "One Fan",
     description: "website for portfolio",
