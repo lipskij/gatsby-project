@@ -16,7 +16,7 @@ export default function About() {
     <Layout>
       <section className={about}>
         <div>
-          <h1>About page</h1>
+          <h1>Image page</h1>
           <p>Little website about Rick & Morty</p>
           <p>Only for learning purpose</p>
         </div>
