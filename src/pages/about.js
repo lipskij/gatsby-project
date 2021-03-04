@@ -20,7 +20,7 @@ export default function About() {
           <p>Little website about Rick & Morty</p>
           <p>Only for learning purpose</p>
         </div>
-        <div >
+        <div>
           <ul className={grid}>
             {data?.results.map(i => {
               const { id, image, name } = i
@@ -33,7 +33,7 @@ export default function About() {
               )
             })}
           </ul>
-        </div >
+        </div>
       </section>
     </Layout>
   )

@@ -9,12 +9,10 @@ html,
 body {
   min-height: 100%;
 }
-/* body {
-  background-image: url("/static/opm.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-} */
+body {
+  background: rgb(211, 243, 226);
+}
+
 p {
   margin: 16px auto;
   line-height: 1.5rem;
@@ -40,9 +38,15 @@ nav a {
   font-weight: 400;
   padding-bottom: 8px;
   border-bottom: 3px solid transparent;
+  transition: 0.3s;
 }
 nav a:hover {
-  border-color: white;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+nav a:hover {
+  border-color: rgb(60, 19, 243);
 }
 footer p {
   text-align: center;

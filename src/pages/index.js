@@ -13,8 +13,8 @@ export default function Home({ data }) {
           <h2>Wubba Lubba Dub Dub</h2>
           <h3>Rick & Morty</h3>
           <p>Front-End web developer based in Vilius</p>
-          <Link className={btn} to="/projects">
-            My Portfolio Projects
+          <Link className={btn} to="/about">
+            Rick & Morty Images
           </Link>
         </div>
       </section>

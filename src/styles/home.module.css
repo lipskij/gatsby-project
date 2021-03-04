@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
   align-items: center;
+  min-height: 100vh;
 }
 .header h2 {
   font-size: 4em;
@@ -10,7 +11,7 @@
 .header h3 {
   font-size: 3em;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .btn {
   display: inline-block;
@@ -19,4 +20,29 @@
   border-radius: 10px;
   margin-top: 20px;
   font-weight: 500;
+  transition: 0.1s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  box-shadow: 5px 3px 5px  grey;
+  animation: woble .2s ease;
+}
+
+@keyframes woble {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-5deg);
+  }
+
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }

@@ -20,7 +20,7 @@
 
 .about img {
   border-radius: 10px;
-  transition: 0.3s;
+  transition: 0.1s;
 }
 
 .about img:hover {
@@ -28,6 +28,8 @@
   transform: scale(1.05);
   box-shadow: 5px 3px 5px  grey;
   transition: 0.3s;
+  animation: woble ease;
+  animation-duration: .2s;
 }
 
 .grid {
@@ -36,4 +38,21 @@
   grid-gap: 40px;
   align-items: center;
   padding-top: 3rem;
+}
+
+@keyframes woble {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-5deg);
+  }
+
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
