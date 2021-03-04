@@ -2,19 +2,19 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: rgb(27, 20, 68);
 }
 html,
 body {
   min-height: 100%;
 }
-body {
-  /* background-image: url("/anime-stripes.png") ; */
+/* body {
+  background-image: url("/static/opm.png");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-size: 100% 200%;
   background-attachment: fixed;
-}
+} */
 p {
   margin: 16px auto;
   line-height: 1.5rem;

@@ -15,6 +15,7 @@ export default function Home() {
             My Portfolio Projects
           </Link>
         </div>
+        <img src='/opm.png' alt ='ok' style={{maxWidth: '100%'}}/>
       </section>
     </Layout>
   )
