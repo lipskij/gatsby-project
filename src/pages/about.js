@@ -11,7 +11,6 @@ export default function About() {
       .then(x => setData(x))
   }, [])
 
-  console.log(data?.results)
   return (
     <Layout>
       <section className={about}>

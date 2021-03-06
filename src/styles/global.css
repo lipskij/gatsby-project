@@ -53,3 +53,15 @@ footer p {
   color: #bbb;
   margin: 40px auto;
 }
+
+@media screen and (max-width: 480px) {
+  .nav-text {
+    display: none;
+  }
+  nav .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+  }
+}

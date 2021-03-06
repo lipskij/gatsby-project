@@ -7,7 +7,7 @@ export default function Projects() {
     <Layout>
       <div className={portfolio}>
         <h2>Projects & websites i created.</h2>
-        <h3>Nothing because i'm a lazy fuck!</h3>
+        
       </div>
     </Layout>
   )
