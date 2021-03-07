@@ -14,7 +14,7 @@ module.exports = {
   ],
 
   siteMetadata: {
-    title: "One Fan",
+    title: "...To Live Is To Risk It All...",
     description: "website for portfolio",
     copyright: "This website is copyright 2021 One Fan",
   },
