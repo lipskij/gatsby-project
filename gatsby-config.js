@@ -11,6 +11,20 @@ module.exports = {
       resolve: `gatsby-plugin-create-client-paths`,
       options: { prefixes: [`/about/*`] },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `notes`,
+        path: `${__dirname}/src/notes/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `projects`,
+        path: `${__dirname}/src/projects/`,
+      },
+    },
   ],
 
   siteMetadata: {
