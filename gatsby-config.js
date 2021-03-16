@@ -7,16 +7,10 @@
 module.exports = {
   /* Your site config here */
   plugins: [
+    'gatsby-transformer-remark',
     {
       resolve: `gatsby-plugin-create-client-paths`,
       options: { prefixes: [`/about/*`] },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `notes`,
-        path: `${__dirname}/src/notes/`,
-      },
     },
     {
       resolve: `gatsby-source-filesystem`,
