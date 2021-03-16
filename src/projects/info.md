@@ -1,6 +1,6 @@
 ---
 title: Rick & Morty
-stack: HTML, CSS & JS
+stack: Gatsby
 slug: learning gatsby-js
 ---
 

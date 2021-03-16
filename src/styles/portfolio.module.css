@@ -1,12 +1,29 @@
 .portfolio {
-    text-align: center;
-    min-height: 60vh;
-  }
-  .portfolio > h2 {
-    font-size: 3em;
-    margin-top: 80px;
-  }
-  .portfolio > h3 {
-    font-size: 2em;
-    font-weight: 200;
-  }
+  text-align: center;
+  min-height: 60vh;
+}
+.portfolio > h2 {
+  font-size: 3em;
+  margin-top: 80px;
+}
+.portfolio > h3 {
+  font-size: 2em;
+  font-weight: 200;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.project h3 {
+  text-align: center;
+  font-weight: 500;
+  padding-top: 3rem;
+}
+
+.project p {
+  color: #ccc;
+  margin-top: 4px;
+}
