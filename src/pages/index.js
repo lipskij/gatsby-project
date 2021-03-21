@@ -17,7 +17,7 @@ export default function Home() {
             Anime List
           </Link>
         </div>
-        <img src="/saitama.png" alt="rick" style={{ width: "80%" }} />
+        <img src="/saitama.png" alt="saitama" style={{ width: "80%" }} />
       </section>
     </Layout>
   )

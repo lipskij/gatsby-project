@@ -31,7 +31,7 @@ export default function About() {
           {favoriteAnime.map(anime => (
             <div key={anime.mal_id}>
               <h3>{anime.title}</h3>
-              <img src={anime.image_url} />
+              <img src={anime.image_url} alt='Anime images'/>
             </div>
           ))}
         </div>

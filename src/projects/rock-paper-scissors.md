@@ -2,6 +2,7 @@
 title: Rock Paper Scissors
 stack: Meteor
 slug: rock-paper-scissors
+date: 2020-08-20T00:00:00+00:00
 ---
 
 **Simple text**, This is a website to play rock paper scissors online with friends.
