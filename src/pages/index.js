@@ -4,8 +4,7 @@ import Layout from "../components/Layout"
 import { header, btn } from "../styles/home.module.css"
 import { StaticImage } from "gatsby-plugin-image"
 
-export default function Home({data}) {
-  console.log(data)
+export default function Home({ data }) {
   return (
     <Layout>
       <section className={header}>
@@ -17,7 +16,7 @@ export default function Home({data}) {
             Anime List
           </Link>
         </div>
-        <StaticImage src="../images/saitama.png" alt="Saitama"/>
+        <StaticImage src="../images/saitama.png" alt="Saitama" />
       </section>
     </Layout>
   )

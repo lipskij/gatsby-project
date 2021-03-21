@@ -14,7 +14,8 @@
 .project {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  gap: 3rem;
+  padding-top: 4rem;
 }
 
 .project h3 {
@@ -26,4 +27,16 @@
 .project p {
   color: #ccc;
   margin-top: 4px;
+}
+
+.image {
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.image:hover {
+  cursor:pointer;
+  transform: scale(1.01);
+  box-shadow: 5px 3px 5px  grey;
+  transition: 0.3s;
 }
