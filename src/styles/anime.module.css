@@ -12,6 +12,7 @@
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 2;
+  text-align: center;
 }
 
 .about li {
@@ -28,8 +29,6 @@
   transform: scale(1.05);
   box-shadow: 5px 3px 5px  grey;
   transition: 0.3s;
-  animation: woble ease;
-  animation-duration: .2s;
 }
 
 .grid {
@@ -40,21 +39,8 @@
   padding-top: 3rem;
 }
 
-@keyframes woble {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  25% {
-    transform: rotate(-5deg);
-  }
-
-  50% {
-    transform: rotate(5deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
+.grid h3 {
+  padding-bottom: 1rem;
 }
 
 @media screen and (max-width: 480px) {

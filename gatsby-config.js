@@ -10,7 +10,7 @@ module.exports = {
     'gatsby-transformer-remark',
     {
       resolve: `gatsby-plugin-create-client-paths`,
-      options: { prefixes: [`/about/*`] },
+      options: { prefixes: [`/anime/*`] },
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -22,7 +22,7 @@ module.exports = {
   ],
 
   siteMetadata: {
-    title: "...To Live Is To Risk It All...",
+    title: "All Hail Vegeta, Prince Of No One!",
     description: "website for portfolio",
     copyright: "This website is copyright 2021 One Fan",
   },

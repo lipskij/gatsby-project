@@ -19,7 +19,7 @@ export default function Navbar() {
       <h1 className="nav-text">{title}</h1>
       <div className="links">
         <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
+        <Link to="/anime">Anime</Link>
         <Link to="/projects">Projects</Link>
       </div>
     </nav>

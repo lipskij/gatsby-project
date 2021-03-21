@@ -8,16 +8,17 @@ export default function Home() {
     <Layout>
       <section className={header}>
         <div>
-          <h2>Wubba Lubba Dub Dub</h2>
-          <img src="/rnm.png" alt="rick and morty" style={{ width: "50%" }} />
+          <h2>
+            “I’ll leave tomorrow’s problems to tomorrow’s me.”
+          </h2>
+            <p>– Saitama (One-Punch Man)</p>
           <p>Front-End web developer based in Vilius</p>
-          <Link className={btn} to="/about">
-            Rick & Morty Images
+          <Link className={btn} to="/anime">
+            Anime List
           </Link>
         </div>
-        <img src="/rnm2.png" alt="rick" style={{ width: "80%" }} />
+        <img src="/saitama.png" alt="rick" style={{ width: "80%" }} />
       </section>
     </Layout>
   )
 }
-
