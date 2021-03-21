@@ -21,7 +21,7 @@ export default function Projects({ data }) {
                   image={
                     project.frontmatter.thumb.childImageSharp.gatsbyImageData
                   }
-                  alt="image"
+                  alt="Project Image"
                 />
                 <h3>{project.frontmatter.title}</h3>
                 <p>{project.frontmatter.stack}</p>

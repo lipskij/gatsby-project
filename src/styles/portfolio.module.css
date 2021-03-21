@@ -36,7 +36,7 @@
 
 .image:hover {
   cursor:pointer;
-  transform: scale(1.01);
+  transform: scale(1.05);
   box-shadow: 5px 3px 5px  grey;
   transition: 0.3s;
 }
