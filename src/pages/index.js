@@ -11,7 +11,7 @@ export default function Home({ data }) {
         <div>
           <h2>“I’ll leave tomorrow’s problems to tomorrow’s me.”</h2>
           <p>– Saitama (One-Punch Man)</p>
-          <h4>Front-End web developer based in Vilius</h4>
+          <h4> Hi! I'm Front-End web developer based in Vilius</h4>
           <Link className={btn} to="/anime">
             Anime List
           </Link>
